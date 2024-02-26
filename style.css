@@ -202,6 +202,7 @@ nav {
     padding: 1rem;
     margin-left: 1rem;
 /*     margin-top: 2rem; */
+    border: 1px solid aliceblue;
 }
 .buy-tickets:hover {
     background-color: rgb(37, 51, 51);

@@ -1,0 +1,224 @@
+nav {
+    z-index: 999999;
+    position: sticky;
+    top: 0; 
+}
+#main-menu {
+    display: flex;
+}
+#main-menu {
+    list-style: none;
+    left: 0;
+    background-color: black;
+}
+#main-menu a {
+    text-decoration: none;
+    padding: 1em;
+    display: block;
+    color: rgb(207, 211, 214);
+}
+#main-menu a:hover {
+    background-color: rgb(126, 146, 163);
+    color: rgb(50, 34, 34);
+}
+#HOME {
+    width: 100%;
+    overflow: hidden;
+}
+
+#main-menu ul.sub-menu{
+    position: absolute;
+    background-color: #000;
+    padding: 15px 0px;
+    list-style: none;
+    width: 200px;
+    display: none;
+}
+
+#main-menu li:hover a{
+    background-color: rgb(126, 146, 163)1;
+    color: rgb(50, 34, 34);
+}
+
+#main-menu li:hover ul.sub-menu{
+    display: block;
+}
+
+#main-menu ul.sub-menu a{
+    background-color: #000;
+    color:rgb(207, 211, 214);
+    padding: 8px 15px;
+    border-bottom: 1px solid #333;
+}
+
+#main-menu ul.sub-menu li:hover a{
+    background-color: #646161;
+}
+
+#main-menu ul.sub-menu li:hover a{
+    border-bottom: 0px solid #7a7171;
+}
+
+#main-menu ul.sub-menu li:last-child a{
+    border: none;
+}
+
+/* #main-menu>li.has-child::after{
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f107";
+    color: #fff;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    padding: 18px 0px;
+}  */
+
+.list-image {
+    display: flex;
+}
+#BAND {
+    width: 100%;
+    height: 700px;
+}
+.information {
+    width: 50%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+.information h1 {
+    text-align: center;
+    font-size: 3em;
+    margin-top: 14%;
+}
+.information h2 {
+    text-align: center;
+    font-size: 1.3em;
+    margin-top: -1em;
+    color: rgb(179, 177, 175);
+}
+.band-images {
+    overflow: hidden;
+    display: flex;
+    margin-top: 2rem;
+}
+.band-images div {
+    text-align: center;
+    margin: 10%;
+}
+/* .name {
+    margin-top: 7rem;
+    display: flex;
+}
+.name div {
+    margin: 0 13%;
+    font-size: 1.5em;
+}
+.band-images img{
+    margin: 2em 6%;
+}  */
+
+#TOUR {
+    width: 100%;
+    background-color: black;
+    height: 70rem;
+    overflow: hidden;
+    /* position: relative; */
+}
+.block {
+    width: 70%;
+    position: absolute;
+    margin-top: 9em;
+    margin-left: 50%;
+    height: 100%;
+    transform: translateX(-50%);
+}
+.block h1 {
+    text-align: center;
+    top: 10em;
+    font-size: 3em;
+    bottom: 0;
+}
+.block h2 {
+    text-align: center;
+    margin-top: -1.5em;
+}
+#TOUR h1 {
+    color: aliceblue;
+    text-align: center;
+    top: 12em;
+}
+#TOUR h2 {
+    color: aliceblue;
+    
+}
+#TOUR ul {
+    margin-top: 3em;
+    list-style: none;
+    margin-left: -2.5em;
+}
+#TOUR ul li {
+    background-color: aliceblue;
+    display: flex;
+    font-size: 1.6em;
+    justify-content:space-between;
+    height: 1.5em;
+    border: 1px solid #9e8585;
+}
+.num {
+    background-color: brown;
+    border: 2px;
+    padding: 0.2em;
+    margin-right: 0.3em;
+    border: 2px solid aliceblue;
+}
+.images-tour {
+    display: flex;
+    width: 100%;
+    height: 60%;
+}
+.image {
+    width: 30%;
+    background-color: aliceblue;
+    height: 100%;
+}
+.div1 {
+    margin-top:10%;
+    margin-left: 1rem;
+}
+.div2 {
+    margin-left: 1rem;
+    margin-top: 1%;
+    color: rgb(132, 138, 143);
+}
+.div3 {
+    margin-left: 1rem;
+    margin-top: 3%;
+}
+.buy-tickets {
+    background-color: black;
+    color: aliceblue;
+    width: 30%;
+    padding: 1rem;
+    margin-left: 1rem;
+    margin-top: 3rem;
+}
+.buy-tickets:hover {
+    background-color: rgb(37, 51, 51);
+    color: #b9b4b4;
+}
+#CONTACT {
+    width: 100%;
+    height: 700px;
+}
+
+#CONTACT {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: 500px;
+    background-color: aliceblue;
+} 
+#CONTACT h2 {
+    color: aliceblue;
+}

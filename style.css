@@ -1,7 +1,12 @@
 nav {
     z-index: 999999;
     position: sticky;
+    background-color: black;
+    color: rgb(207, 211, 214);
     top: 0; 
+}
+#toggle {
+    display: none;
 }
 #main-menu {
     display: flex;
@@ -182,6 +187,12 @@ nav {
     background-color: aliceblue;
     height: 100%;
 }
+.image-cen {
+    margin: 0 8%;
+    width: 30%;
+    background-color: aliceblue;
+    height: 100%;
+}
 .div1 {
     margin-top:10%;
     margin-left: 1rem;
@@ -201,7 +212,8 @@ nav {
     width: 30%;
     padding: 1rem;
     margin-left: 1rem;
-    margin-top: 3rem;
+    margin-top: 2rem;
+    border: 1px solid ac;
 }
 .buy-tickets:hover {
     background-color: rgb(37, 51, 51);
@@ -221,4 +233,7 @@ nav {
 } 
 #CONTACT h2 {
     color: aliceblue;
+}
+.h1 {
+    display: flex;
 }

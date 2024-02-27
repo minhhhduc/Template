@@ -4,13 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
-    <!--<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">-->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+    <link rel="stylesheet" href="mobile.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <title>Template</title>
 </head>
 <body>
     <nav>
+        <div id="toggle"><i class="fas fa-bars"></i></div>
         <ul id="main-menu">
             <li><a href="#HOME">HOME</a></li>
             <li><a href="#BAND">BAND</a></li>
@@ -26,6 +28,7 @@
             </li>
         </ul>
     </nav>
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
     <div id="HOME">
         <div class="list-image">
             <img src="https://brocanvas.com/wp-content/uploads/Anh-phong-canh-binh-minh-tren-ho.jpg" width="100%" height="1000px"> 
@@ -66,7 +69,7 @@
                     <div class="div3">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</div>
                     <div class="buy-tickets">By Tickets</div>
                 </div>
-                <div class="image" style="margin: 0 8%;">
+                <div class="image-cen">
                     <img src="https://www.w3schools.com/w3images/paris.jpg" alt="" width="100%">
                     <div class="div1">Paris</div>
                     <div class="div2">Sat 28 Nov 2016</div>
@@ -87,14 +90,17 @@
         
     <div id="CONTACT">
             <div class="block">
-                <p>
+                <p class="h1">
                     <h1 style="margin-top:-1.8em;">CONTACT</h1>
                     <h2>Fan? Drop a note!</h2>
-                    <i class="fa-solid fa-location-dot"></i> Hà Nội, Việt Nam  
+                    <div><i class="fa-solid fa-location-dot"></i> Hà Nội, Việt Nam  </div>
                     <input type="text" placeholder="Name" width="50px" height="20px">
                     <input type="text" placeholder="Emal"><br>
                 </p>
-                <p><i class="fa-solid fa-phone"></i> 0853951662 <input type="text" placeholder="Message"><br></p>
+                <p>
+                    <div><i class="fa-solid fa-phone"></i> 0853951662 </div> 
+                        <input type="text" placeholder="Message"><br>
+                </p>
                 <p><i class="fa-solid fa-envelope"></i> Email: dominduc02102005@gmail.com</p>
                 <div class="buy-tickets" style="margin: 0; width: 3rem;">SEND</div>
             

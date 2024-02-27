@@ -1,3 +1,10 @@
+$(document).ready(function() {
+    $('#toggle').click(function() {
+        $('#main-menu').slideToggle()
+    })
+})
+
+
 $(document).ready(function(){
     $('.sub-menu').parent('li').addClass('has-child');
 });
